@@ -1,0 +1,116 @@
+[
+  {
+    "name": "VendorID",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "tpep_pickup_datetime",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "tpep_dropoff_datetime",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "passenger_count",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "trip_distance",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "RatecodeID",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "store_and_fwd_flag",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "PULocationID",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "DOLocationID",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "payment_type",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "fare_amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "extra",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mta_tax",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "tip_amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "tolls_amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "improvement_surcharge",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "total_amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "congestion_surcharge",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "airport_fee",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

@@ -5,7 +5,7 @@ resource "local_file" "requirements" {
 
 resource "google_storage_bucket" "cloud_function_bucket" {
   name     = "${var.project_id}-cloud-function-bucket"
-  location = "EU"
+  location = "EUROPE-WEST1"
 }
 
 data "archive_file" "parquet_to_bigquery_zip" {
